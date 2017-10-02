@@ -42,8 +42,8 @@ int main(int argc, char *argv[])
 
     /* When run with no arguments, the bomb reads its input lines 
      * from standard input. */
-    if (argc == 1) {  
-	infile = stdin;
+    if (argc == 1) {
+		infile = stdin;
     } 
 
     /* When run with one argument <file>, the bomb reads from <file> 
@@ -51,16 +51,16 @@ int main(int argc, char *argv[])
      * defuse each phase, you can add its defusing string to <file> and
      * avoid having to retype it. */
     else if (argc == 2) {
-	if (!(infile = fopen(argv[1], "r"))) {
-	    printf("%s: Error: Couldn't open %s\n", argv[0], argv[1]);
-	    exit(8);
-	}
+		if (!(infile = fopen(argv[1], "r"))) {
+			printf("%s: Error: Couldn't open %s\n", argv[0], argv[1]);
+			exit(8);
+		}
     }
 
     /* You can't call the bomb with more than 1 command line argument. */
     else {
-	printf("Usage: %s [<input_file>]\n", argv[0]);
-	exit(8);
+		printf("Usage: %s [<input_file>]\n", argv[0]);
+		exit(8);
     }
 
     /* Do all sorts of secret stuff that makes the bomb harder to defuse. */
