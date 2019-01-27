@@ -1,3 +1,3 @@
 ## Description
 
-This is the 2017 CS 211 Spring Final Exam.
+These are both versions of the 2017 CS 211 Spring Final Exam.
