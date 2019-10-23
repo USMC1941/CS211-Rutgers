@@ -1,0 +1,12 @@
+an 2 3
+anim 1 5
+animal 1 6
+balm 0 0
+ber 2 1
+coy 1 0
+coyote 2 2
+flab 1 0
+flabbergast 2 2
+gast 0 1
+lucid 1 2
+overture 0 4

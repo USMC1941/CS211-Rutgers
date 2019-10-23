@@ -1,0 +1,12 @@
+INPUTVAR 5 A B C D E
+OUTPUTVAR 1 X
+DECODER 4 A B C D a b c d e f g h i j k l m n o p
+OR f j q
+OR q k r
+OR r l s
+OR s n t
+OR a b u
+OR u d v
+OR v h w
+OR p w x
+MULTIPLEXER 8 0 1 0 0 1 1 1 1 t x E X

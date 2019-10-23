@@ -1,0 +1,9 @@
+INPUTVAR 8 A B C D E F G H
+OUTPUTVAR 1 X
+OR A B x
+OR C D y
+OR E F u
+OR G H v
+AND x y w
+AND u v z
+OR y z X

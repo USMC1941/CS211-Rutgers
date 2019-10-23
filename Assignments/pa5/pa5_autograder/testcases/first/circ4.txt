@@ -1,0 +1,13 @@
+INPUTVAR 16 A B C D E F G H I J K L M N O P
+OUTPUTVAR 1 S
+DECODER 2 A B a b c d
+DECODER 2 C D e f g h
+DECODER 2 E F i j k l
+DECODER 2 G H m n o p
+MULTIPLEXER 4 a b c d P O q
+MULTIPLEXER 4 e f g h N M r
+MULTIPLEXER 4 i j k l L K s
+MULTIPLEXER 4 m n o p J I t
+AND q r u
+AND u s v
+AND v t S

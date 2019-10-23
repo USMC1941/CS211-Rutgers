@@ -1,0 +1,6 @@
+boo 0 1
+book 0 1
+booking 1 1
+john 1 0
+tex 1 0
+text 1 1

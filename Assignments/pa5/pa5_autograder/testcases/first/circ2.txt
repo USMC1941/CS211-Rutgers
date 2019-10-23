@@ -1,0 +1,24 @@
+INPUTVAR 3 A B C
+OUTPUTVAR 2 S D
+NOT A x
+NOT B y
+NOT C z
+AND x B a
+AND a C b
+AND A B c
+AND c z d
+AND A C e
+AND e y f
+AND c C g
+AND x y h
+AND h C i
+AND a z j
+AND j B k
+AND A y w
+AND w z l
+OR b d m
+OR m f n
+OR n g D
+OR g i o
+OR o k p
+OR p l S

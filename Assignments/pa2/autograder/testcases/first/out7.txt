@@ -1,0 +1,12 @@
+a 2 14
+ab 1 10
+abu 4 4
+abus 2 0
+abusive 0 0
+ain 1 1
+bus 1 1
+haggardly 2 0
+mon 1 2
+tonic 1 0
+tr 4 6
+train 0 5

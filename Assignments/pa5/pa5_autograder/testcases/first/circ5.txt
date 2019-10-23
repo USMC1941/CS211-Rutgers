@@ -1,0 +1,11 @@
+INPUTVAR 6 A B C D E F
+OUTPUTVAR 1 X
+DECODER 2 A B a b c d
+DECODER 2 B C e f g h
+DECODER 2 C D i j k l
+DECODER 2 D E m n o p
+DECODER 2 E F q r s t
+OR d h u
+OR u l v
+OR v p w
+OR w t X

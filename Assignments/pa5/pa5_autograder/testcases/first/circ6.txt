@@ -1,0 +1,4 @@
+INPUTVAR 2 A B
+OUTPUTVAR 16 C D E F G H I J K L M N O P Q R
+DECODER 2 A B p q r s
+DECODER 4 p q r s C D E F G H I J K L M N O P Q R

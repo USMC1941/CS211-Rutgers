@@ -1,0 +1,10 @@
+INPUTVAR 11 A B C D E F G H I J K
+OUTPUTVAR 2 X Y
+MULTIPLEXER 8 A B C D E F G H I J K x
+MULTIPLEXER 8 A B C D E F G H 1 0 1 y
+AND x y z
+NOT z w
+OR x y a
+AND w a b
+NOT b Y
+AND 1 x X
