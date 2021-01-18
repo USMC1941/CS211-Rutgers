@@ -1,0 +1,11 @@
+INPUTVAR 6 IN1 IN2 IN3 IN4 IN5 IN6
+OUTPUTVAR 1 OUT1
+DECODER 2 IN4 IN5 temp13 temp14 temp15 temp16
+DECODER 2 IN3 IN4 temp9 temp10 temp11 temp12
+DECODER 2 IN2 IN3 temp5 temp6 temp7 temp8
+DECODER 2 IN5 IN6 temp17 temp18 temp19 temp20
+DECODER 2 IN1 IN2 temp1 temp2 temp3 temp4
+OR temp4 temp8 temp21
+OR temp21 temp12 temp22
+OR temp22 temp16 temp23
+XOR temp23 temp20 OUT1

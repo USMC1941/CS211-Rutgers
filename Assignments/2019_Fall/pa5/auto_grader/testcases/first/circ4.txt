@@ -1,0 +1,13 @@
+INPUTVAR 16 IN1 IN2 IN3 IN4 IN5 IN6 IN7 IN8 IN9 IN10 IN11 IN12 IN13 IN14 IN15 IN16
+OUTPUTVAR 1 OUT1
+DECODER 2 IN1 IN2 temp1 temp2 temp3 temp4
+DECODER 2 IN3 IN4 temp5 temp6 temp7 temp8
+DECODER 2 IN5 IN6 temp9 temp10 temp11 temp12
+DECODER 2 IN7 IN8 temp13 temp14 temp15 temp16
+MULTIPLEXER 4 temp1 temp2 temp3 temp4 IN16 IN15 temp17
+MULTIPLEXER 4 temp5 temp6 temp7 temp8 IN14 IN13 temp18
+MULTIPLEXER 4 temp9 temp10 temp11 temp12 IN12 IN11 temp19
+MULTIPLEXER 4 temp13 temp14 temp15 temp16 IN10 IN9 temp20
+AND temp17 temp18 temp21
+AND temp21 temp19 temp22
+AND temp22 temp20 OUT1

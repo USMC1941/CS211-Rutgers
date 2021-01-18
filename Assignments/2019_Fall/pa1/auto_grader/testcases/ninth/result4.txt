@@ -1,0 +1,23 @@
+inserted 1
+inserted 2
+inserted 3
+inserted 3
+inserted 2
+inserted 3
+inserted 3
+present 2
+inserted 4
+inserted 5
+inserted 5
+inserted 4
+inserted 5
+inserted 6
+inserted 4
+fail
+success
+present 1
+success
+success
+present 2
+absent
+inserted 4

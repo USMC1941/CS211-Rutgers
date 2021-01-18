@@ -1,0 +1,11 @@
+fail
+fail
+fail
+fail
+absent
+inserted 1
+inserted 2
+inserted 3
+inserted 2
+success
+absent
